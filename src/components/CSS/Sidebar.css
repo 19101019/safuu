@@ -1,0 +1,45 @@
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1em 0 .8em;
+}
+
+.top_section{
+    margin-top: 1em;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.top_section .toggle{
+    
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    right: 0;
+    
+}
+
+
+.logo_section .logo{
+    margin: 2em auto;
+    height: 100px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_section .logo img{
+  padding: 0.5em;
+  /* background-color: white; */
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+

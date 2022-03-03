@@ -35,6 +35,20 @@ function Navbar() {
               <img src={img} alt="" />
             </div>
             {SidebarData.map((item, index) => {
+              if(item.title === 'Swap'|| item.title === "Docs"){
+                return (
+                  <li key={index} className={item.cName}>
+                    <a
+                      href={item.path}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {item.icon}
+                      <span>{item.title}</span>
+                    </a>
+                  </li>
+                );
+              }
               return (
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>

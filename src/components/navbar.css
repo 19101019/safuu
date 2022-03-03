@@ -48,6 +48,7 @@
 }
 
 .nav-menu.active {
+  color: #61CE70;
   left: 0;
   transition: 350ms;
 }

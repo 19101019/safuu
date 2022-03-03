@@ -1,0 +1,126 @@
+.account{
+    z-index: -2;
+  margin-left: 23%;
+  margin-top: 7vh;
+  width: 60%;
+  position: relative;
+  color: white;
+  background-image: url("../../assets/background.jpg");
+  background-position: cover;
+  background-attachment: fixed;
+}
+
+.first_block {
+  margin-top: 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block_inner {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1 25%;
+  font-weight: 400;
+  border: 1px solid white;
+  background-color: #09160c;
+  border-radius: 10px;
+}
+
+
+.block_inner h4 {
+  font-size: 1em;
+  color: rgb(190, 190, 190);
+  margin: 0.2em 1em;
+}
+.block_inner h3 {
+    color: #61CE70;
+  font-size: 2em;
+  margin: 0.2em 1em;
+}
+
+.right_block {
+  margin-left: 1.2em;
+}
+
+.block_inner h5 {
+    color: rgb(190, 190, 190);
+  font-size: 1.3em;
+  margin: 0.2em 1em;
+}
+
+.block2 {
+    margin-top: 1em;
+  border: 1px solid white;
+  background-color: #09160c;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.block2_inner {
+    margin: 1em 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.block2_inner h4 {
+  font-size: 1em;
+  color: rgb(190, 190, 190);
+  margin: 0.2em 1em 0;
+}
+.block2_inner h5 {
+  font-size: 1.3em;
+  margin: 0 1em;
+}
+
+@media (min-width: 315px) and (max-width: 426px) {
+  .account {
+    margin: 5vh auto;
+    width: 90%;
+    position: relative;
+    color: white;
+  }
+
+  .block2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .block2_inner {
+    text-align: center;
+  }
+
+  .first_block {
+    flex-direction: column;
+  }
+
+  .block_inner {
+    text-align: center;
+    margin: 0.5em 0;
+  }
+
+  .block_inner span {
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .block_inner {
+    margin-left: 0;
+  }
+
+  .block2_inner h4 {
+  font-size: 0.9em;
+  color: rgb(190, 190, 190);
+  margin: 0.2em 1em 0;
+}
+.block2_inner h5 {
+  font-size: 1em;
+  margin: 0 1em;
+}
+}

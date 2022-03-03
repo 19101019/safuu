@@ -42,6 +42,7 @@ const Account = () => {
         <div className="block2_inner">
           <h4>Next Release</h4>
           <h5>00:11:59</h5>
+          
         </div>
       </div>
     </div>
